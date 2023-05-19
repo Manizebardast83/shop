@@ -1,0 +1,44 @@
+body{
+    background-color: azure;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #036dd1;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(4, 236, 4);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #828a94;
+  color: white;
+}
+  input{
+    display: inline;
+  }
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+#btn-change-mode{
+  background-color: #036dd1;
+  color: white;
+  display:inline
+}
